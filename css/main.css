@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Antonio:wght@100..700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Antonio:wght@100..700&family=League+Spartan:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap");
 body {
   background-color: #070724;
 }
@@ -10,6 +10,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  font-family: Spartan;
 }
 header h5 {
   font-family: Antonio;
@@ -27,7 +28,6 @@ header ul {
   list-style: none;
 }
 header ul a {
-  font-family: Spartan;
   font-size: 11px;
   font-weight: 700;
   line-height: 25px;
@@ -35,4 +35,62 @@ header ul a {
   text-align: left;
   text-decoration: none;
   color: #ffffff;
+}
+
+main {
+  max-width: 940px;
+  display: flex;
+  -moz-column-gap: 300px;
+       column-gap: 300px;
+  margin: auto;
+  align-items: center;
+}
+main .main__list {
+  max-width: 350px;
+}
+main .main__list h1 {
+  font-family: Antonio;
+  font-size: 80px;
+  font-weight: 400;
+  line-height: 103.52px;
+  text-align: left;
+  color: #ffffff;
+}
+main .main__list p {
+  font-family: Spartan;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: left;
+  color: #ffffff;
+}
+main .main__list .btns {
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+}
+main .main__list .btns button {
+  width: 350px;
+  height: 48px;
+  background: transparent;
+  display: flex;
+  -moz-column-gap: 28px;
+       column-gap: 28px;
+  border: 0;
+  cursor: pointer;
+  border: 1px solid #ffffff;
+  padding-left: 28px;
+}
+main .main__list .btns button p {
+  font-family: Spartan;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: 2.5714285374px;
+  text-align: left;
+}
+main .main__list .btns .one {
+  background: #419EBB;
+  border: 0;
 }/*# sourceMappingURL=main.css.map */
